@@ -1,43 +1,35 @@
 {
   "name": "cra-template-lasbe",
   "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "@types/jest": "^27.5.2",
-    "@types/node": "^16.18.48",
-    "@types/react": "^18.2.21",
-    "@types/react-dom": "^18.2.7",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
-    "typescript": "^4.9.5",
-    "web-vitals": "^2.1.4"
+  "private": false,
+  "main": "template.json",
+  "description": "React - TypeScript와 recoil, styled-components, craco를 이용한 절대경로 설정 등이 적용 되어 있는 템플릿입니다.",
+  "homepage": "https://lasbe.tistory.com/",
+  "author": {
+    "name": "LasBe",
+    "email": "devlasbe@gmail.com",
+    "url": "https://lasbe.tistory.com/"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LasBe-code/cra-template-lasbe"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  }
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "cra-template",
+    "react-cra-template",
+    "react-typescript-cra-template",
+    "typescript",
+    "eslint",
+    "prettier",
+    "react-query",
+    "recoil"
+  ],
+  "files": [
+    "template",
+    "template.json"
+  ]
 }

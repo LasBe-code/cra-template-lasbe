@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@components": ["./components/index.ts"],
+      "@components/*": ["./components/*"],
+
+      "@constants": ["./constants/index.ts"],
+      "@constants/*": ["./constants/*"],
+
+      "@libs": ["./libs/index.ts"],
+      "@libs/*": ["./libs/*"],
+
+      "@hooks": ["./hooks/index.ts"],
+      "@hooks/*": ["./hooks/*"],
+
+      "@pages": ["./pages/index.ts"],
+      "@pages/*": ["./pages/*"],
+
+      "@states": ["./states/index.ts"],
+      "@states/*": ["./states/*"],
+
+      "@styles": ["./styles/index.ts"],
+      "@styles/*": ["./styles/*"],
+
+      "@utils": ["./utils/index.ts"],
+      "@utils/*": ["./utils/*"]
+    }
+  }
+}

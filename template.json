@@ -1,0 +1,40 @@
+{
+    "package": {
+        "dependencies": {
+            "@tanstack/react-query": "^4.35.0",
+            "@testing-library/jest-dom": "^5.17.0",
+            "@testing-library/react": "^13.4.0",
+            "@testing-library/user-event": "^13.5.0",
+            "@types/jest": "^27.5.2",
+            "@types/node": "^16.18.48",
+            "@types/react": "^18.2.21",
+            "@types/react-dom": "^18.2.7",
+            "axios": "^1.5.0",
+            "craco": "^0.0.3",
+            "react": "^18.2.0",
+            "react-dom": "^18.2.0",
+            "react-router-dom": "^6.15.0",
+            "react-scripts": "5.0.1",
+            "react-spinners": "^0.13.8",
+            "recoil": "^0.7.7",
+            "styled-components": "^6.0.7",
+            "typescript": "^4.9.5",
+            "web-vitals": "^2.1.4"
+        },
+        "devDependencies": {
+            "@tanstack/react-query-devtools": "^4.35.0",
+            "@types/styled-components": "^5.1.26"
+        },
+        "scripts": {
+            "start": "craco start",
+            "build": "CI=false && craco build",
+            "test": "craco test"
+        },
+        "eslintConfig": {
+            "extends": [
+                "react-app",
+                "react-app/jest"
+            ]
+        }
+    }
+}
