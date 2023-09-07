@@ -4,7 +4,7 @@ function App() {
       <div>
         {/* eslint-disable-next-line */}
         <a href="https://lasbe.tistory.com/" target="_blank" style={{ color: '#FF7E00', fontSize: '24px' }}>
-          LasBe의 기술 블로그
+          LasBe 기술 블로그
         </a>
       </div>
       <div

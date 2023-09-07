@@ -1,15 +1,12 @@
 {
   "name": "cra-template-lasbe",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": false,
   "main": "template.json",
+  "files": [ "template", "template.json" ],
   "description": "React - TypeScript와 recoil, styled-components, craco를 이용한 절대경로 설정 등이 적용 되어 있는 템플릿입니다.",
   "homepage": "https://lasbe.tistory.com/",
-  "author": {
-    "name": "LasBe",
-    "email": "devlasbe@gmail.com",
-    "url": "https://lasbe.tistory.com/"
-  },
+  "author": "LasBe <devlasbe@gmail.com>",
   "repository": {
     "type": "git",
     "url": "https://github.com/LasBe-code/cra-template-lasbe"
@@ -27,9 +24,5 @@
     "prettier",
     "react-query",
     "recoil"
-  ],
-  "files": [
-    "template",
-    "template.json"
   ]
 }
