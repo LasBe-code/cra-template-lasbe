@@ -31,7 +31,6 @@ $ npx create-react-app my-app --template lasbe
 - .prettierrc
 - Craco
 - Axios
-- react-spinners
 - styled-components
 - @types/styled-components (dev)
 - react-spinners
@@ -90,8 +89,9 @@ root.render(
 
 절대 경로와 관련 된 설정은 `/craco.config.js`, `/tsconfig.paths.json` 파일에 위치합니다.
 
+- craco.config.js
+  
 ```js
-// craco.config.js
 const path = require('path');
 module.exports = {
   webpack: {
@@ -109,8 +109,9 @@ module.exports = {
 };
 ```
 
+- tsconfig.paths.json
+  
 ```json
-// tsconfig.paths.json
 {
   "compilerOptions": {
     "baseUrl": "./src",
