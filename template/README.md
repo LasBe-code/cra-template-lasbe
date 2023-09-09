@@ -5,6 +5,7 @@
   </a>
 </div>
 React - TypeScript와 recoil, styled-components, craco를 이용한 절대경로 설정 등이 적용 되어 있는 템플릿입니다.
+오류를 발견하신 분은 devlasbe@gmail.com으로 연락 바랍니다.
 
 <div style="margin:20px 0">
 

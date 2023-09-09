@@ -1,6 +1,6 @@
 {
   "name": "cra-template-lasbe",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "private": false,
   "main": "template.json",
   "files": [ "template", "template.json" ],
