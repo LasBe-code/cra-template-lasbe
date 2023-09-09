@@ -1,6 +1,6 @@
 # ⚡ cra-template-lasbe
 <div>
-  <a href="https://lasbe.tistory.com/manage" target="_blank">
+  <a href="https://lasbe.tistory.com/" target="_blank">
     <img alt="lasbe" width="200px" style="border-radius:16px" src="https://img1.daumcdn.net/thumb/C428x428/?scode=mtistory2&fname=https%3A%2F%2Ftistory1.daumcdn.net%2Ftistory%2F4668944%2Fattach%2F2ab870b408a040f3bdbf458ba7979526">
   </a>
 </div>
