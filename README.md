@@ -117,14 +117,14 @@ module.exports = {
   "compilerOptions": {
     "baseUrl": "./src",
     "paths": {
+      "@apis": ["./apis/index.ts"],
+      "@apis/*": ["./apis/*"],
+
       "@components": ["./components/index.ts"],
       "@components/*": ["./components/*"],
 
       "@constants": ["./constants/index.ts"],
       "@constants/*": ["./constants/*"],
-
-      "@libs": ["./libs/index.ts"],
-      "@libs/*": ["./libs/*"],
 
       "@hooks": ["./hooks/index.ts"],
       "@hooks/*": ["./hooks/*"],
